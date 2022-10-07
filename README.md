@@ -6,7 +6,7 @@ color:
 black
 white
 graay
-color button:
+color-button:
 background-color: #FBDA61;
 background-image: linear-gradient(45deg, #FBDA61 8%, #FF5ACD 80%);
 
