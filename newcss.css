@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: x-small;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+.paragraph{
+    padding-top: 20px;
+}
+.icons{
+    padding-top: 10px;
+  
+
+}
+span{
+    font-weight: bold;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.list-link{
+    padding-top: 10px;
+    line-height: 1.8;
+}
+.list ul{
+    margin-left: 40px;
+    
+}
+.list ul a{
+    color: white;
+}
+.paragraph-footer{
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Media Query Footer */
+@media screen and (max-width: 600px) {
+    .list{
+        display: block;
+        padding-bottom: 10px;
+        
+    }
+    .list ul{
+        padding-top: 20px;
+    }
+    .foot{
+        display: block;
+        padding: 0;
+    }
+    .paragraph{
+        padding-left: 37px;
+    }
+    .icons{
+        padding-left: 37px;
+    }
+    .paragraph-footer{
+        
+        text-align: center;
+    }
+  
+
+}
+@media screen and (max-width: 913px) and (min-width: 600px) {
+    .foot{
+        display: block;
+       
+    }
+    .list ul{
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .invitation{
+        margin-bottom: 40px;
+    }
+
+
+
+
+}
